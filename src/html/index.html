@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link href="../output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/contents.css">
+  <link rel="stylesheet" href="../css/fonts.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <title>뚜레쥬르</title>
+</head>
+<body>
+    <header class="w-full h-[57px] md:h-[82px] bg-green flex justify-center items-center">
+        <div>
+            <img src="../images/logo.png" alt="뚜레쥬르 logo">
+        </div>
+    </header>
+    <main class="relative w-full overflow-x-hidden bg-customColor">
+        <div class="container lg:w-[1020px] pb-10 mx-auto ">
+            <dl class="px-4 text-center contents_top">
+                <dt class="pb-6">
+                    <img class="hidden md:inline-block" src="../images/pc/404-pc.png" alt="404 error">
+                    <img class="inline-block md:hidden" src="../images/mo/404-m.png" alt="404 error">
+
+                </dt>
+                <dd class="text-center">
+                    <p class="error_txt relative z-10 inline-block text-green font-pretendard text-[24px] md:text-[47px] font-light">ERROR</p>
+                </dd>
+                <dd class="pt-4 lg:pt-5 text-[14px] font-light error_txt2 pb-7 lg:pb-9 font-pretendard text-green lg:text-[28px] [&>span]:font-medium">여기 들어온 당신은 빵에 대한 <span class="point">무</span><span class="point">한</span><span class="point">한</span> <span>애</span><span>정</span>이 <br> 빗어낸 오타로 잘못 들어오신 게 분명합니다.</dd>
+            </dl>
+            <div class="px-8 space-y-6 contents_body columns-1 md:columns-2 md:px-0">
+                <article class="promotion">
+                    <div class="swiper promoSwiper">
+                        <ul class="swiper-wrapper [&>li]:bg-beige [&>li]:rounded-3xl text-center">
+                            <li class="swiper-slide"><img src="../images/pc/promotion.png" alt="프로모션 swiper 1" class="inline-block"></li>
+                            <li class="swiper-slide"><img src="../images/pc/promotion.png" alt="프로모션 swiper 2" class="inline-block"></li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </article>
+                <article class="search_find bg-[#fffaec] pt-6 pb-5 px-6 rounded-3xl bg-[url('images/finder_bg.png')] bg-no-repeat bg-right-bottom bg-[length:60px_70px] min-h-[245px] lg:min-h-[372px] md:pt-12 md:pb-10 lg:px-11 lg:bg-[length:90px_110px] lg:bg-pc-rightbottom font-pretendard">
+                    <h3 class="text-2xl font-bold text-green lg:text-3xl">가까운 매장은?</h3>
+                    <input type="text" placeholder="매장명 또는 지역명(시/군/구)입력" class="w-full h-[35px] mt-4 pl-4 pr-8 border-solid border-[#f2ede4] text-sm outline outline-1 outline-[#f2ede4] bg-[url('images/search.png')] bg-no-repeat bg-center-right bg-[length:18px_18px] lg:h-[55px] lg:text-xl lg:bg-[length:28px_28px] text-[#261c19] font-light">
+                    <p class="mt-4 text-xs lg:text-xl text-[#261c19]">위치 허용을 통해 <br> 가까운 매장을 바로 <br>확인할 수 있습니다!</p>
+                    <button class="px-4 py-2 mt-4 text-xs text-[#fff] rounded bg-green lg:text-lg">가까운 매장 찾기</button>
+                </article>
+                <article class="relative prd_recommend">
+                    <p class="absolute z-10 px-4 py-1 text-xs text-[#fff] rounded-3xl bg-green left-5 top-6 lg:text-lg lg:py-1 lg:px-4 lg:left-7 lg:top-7 font-pretendard">추천 제품</p>
+                    <div class="swiper navSwiper">
+                        <ul class="swiper-wrapper [&>li]:bg-beige [&>li]:rounded-3xl text-center">
+                            <li class="swiper-slide"><img src="../images/pc/slide_img01.png" alt="추천제품 1" class="inline-block"></li>
+                            <li class="swiper-slide"><img src="../images/pc/slide_img02.png" alt="추천제품 2" class="inline-block"></li>
+                        </ul>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </article>
+                <article class="relative prd_new">
+                    <p class="absolute z-10 px-2 py-1 text-xs text-[#fff] prd_recommend__tag rounded-3xl bg-green left-5 top-6 lg:text-lg lg:py-1 lg:px-4 lg:left-7 lg:top-7 font-pretendardfont-pretendard">NEW 제품</p>
+                    <div class="swiper navSwiper">
+                        <ul class="swiper-wrapper [&>li]:bg-beige [&>li]:rounded-3xl text-center">
+                            <li class="swiper-slide"><img src="../images/pc/slide_img02.png" alt="신제품 1" class="inline-block"></li>
+                            <li class="swiper-slide"><img src="../images/pc/slide_img01.png" alt="신제품 2" class="inline-block"></li>
+                        </ul>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="absolute left-2/4 ml-[-510px] lg:w-[1020px] hidden lg:block top-12">
+            <div class="float_banner float_banner_test left-[-35%] absolute text-center z-[1]">
+                <img src="../images/pc/juice.png" alt="스무디 바로가기 이미지 1" class="item4">
+                <img src="../images/pc/item1.png" alt="스무디 바로가기 이미지 2" class="item1">
+                <img src="../images/pc/item2.png" alt="스무디 바로가기 이미지 3" class="item2">
+                <img src="../images/pc/item3.png" alt="스무디 바로가기 이미지 4" class="item3">
+                <button class="item5 w-[300px] h-[50px] mt-6 text-[#f6f0dc] rounded bg-green text-[23px]">스무디 바로가기</button>
+            </div>
+            <div class="float_banner right-[-35%] absolute text-center">
+                <img src="../images/pc/chair1.png" alt="캠핑체어 바로가기 이미지 1" class="item6">
+                <img src="../images/pc/chair2.png" alt="캠핑체어 바로가기 이미지 2" class="item7">
+                <img src="../images/pc/chair3.png" alt="캠핑체어 바로가기 이미지 3" class="item8">
+                <button class="item9 w-[300px] h-[50px] text-[#f6f0dc] rounded bg-green text-[23px]">캠핑체어 바로가기</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#2e2f2e] flex justify-center">
+        <img src="../images/pc/footer.png" alt="footer pc" class="hidden md:inline-block">
+        <img src="../images/mo/footer-m.png" alt="footer m" class="inline-block md:hidden">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="../js/style.js"></script>
+</body>
+</html>
