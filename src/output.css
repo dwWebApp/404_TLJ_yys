@@ -872,6 +872,10 @@ video {
   line-height: 2rem;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -941,20 +945,35 @@ video {
 }
 
 @media (min-width: 500px) {
-  .sm\:text-\[16px\] {
-    font-size: 16px;
+  .sm\:bg-\[length\:80px_90px\] {
+    background-size: 80px 90px;
   }
 
-  .sm\:text-\[47px\] {
-    font-size: 47px;
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
-  .sm\:text-\[35px\] {
-    font-size: 35px;
+  .sm\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
-  .sm\:text-\[18px\] {
-    font-size: 18px;
+  .sm\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .sm\:pt-9 {
+    padding-top: 2.25rem;
+  }
+
+  .sm\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .sm\:text-\[17px\] {
+    font-size: 17px;
   }
 
   .sm\:text-\[20px\] {
@@ -963,6 +982,10 @@ video {
 
   .sm\:text-\[36px\] {
     font-size: 36px;
+  }
+
+  .sm\:text-\[15px\] {
+    font-size: 15px;
   }
 }
 
@@ -999,10 +1022,6 @@ video {
 
   .md\:text-\[28px\] {
     font-size: 28px;
-  }
-
-  .md\:text-\[47px\] {
-    font-size: 47px;
   }
 
   .md\:text-\[48px\] {
@@ -1073,6 +1092,10 @@ video {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-\[21px\] {
+    font-size: 21px;
   }
 
   .lg\:text-lg {
