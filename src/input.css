@@ -30,8 +30,8 @@
       }
 }
 
-@layer components {
-    .btn-blue {
-      @apply px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700;
-    }
+@layer components{
+  .btn{
+      @apply p-2 mx-1 text-white bg-gray-500;
   }
+}
