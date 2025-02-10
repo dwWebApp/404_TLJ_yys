@@ -1,0 +1,20 @@
+1. CGI 지원설치
+
+2. PHP non-thread버젼 다운(혹은 동봉된 파일 활용)
+ - Windows 32/64 에 맞게
+
+3. IIS -> 처리기매핑에 FastCGI php지원용으로 설치
+
+4. vc 재배포가능패키지 설치.(MSDN에서 다운)
+ - Windows 32/64 에 맞게 설치
+
+5. php 연동을위한 설정(php.ini 잡기)
+ - 동봉된 php에는 기본설정 되어있음
+
+
+* IIS/PHP 연동설명 참고주소 *
+ - http://j07051.tistory.com/610
+ - http://gntpapa.tistory.com/entry/IIS-7-PHP-53
+
+
+

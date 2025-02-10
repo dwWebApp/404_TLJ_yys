@@ -1,0 +1,21 @@
+0. php-7.1.xxx
+ - ASP-PHP 연동을 위한 PHP서버 라이브러리 
+ - 참고주소 : http://www.php.net
+
+0. vcredist
+ - ASP-PHP 연동에 필요한 vc재배포 패키지
+ - 참고주소 : MSDN에서 다운로드 가능함
+
+
+1. jsdiff
+ - diff_check V1에 사용됨 (diff_check.asp)
+ - 참고주소 : https://github.com/cemerick/jsdifflib
+              https://www.npmjs.com/package/jsdifflib
+
+2. mergely
+ - diff_check V2에 사용됨 (diff_check2.asp)
+ - 참고주소 : http://www.mergely.com/doc
+
+3. js-diffimage
+ - 이미지비교에 사용됨 (diff_check_image.asp)
+ - 참고주소 : https://github.com/HumbleSoftware/js-imagediff
